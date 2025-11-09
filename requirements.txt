@@ -1,0 +1,16 @@
+# Core
+torch>=2.2
+numpy>=1.23
+tqdm>=4.66
+einops>=0.7.0
+hydra-core>=1.3
+omegaconf>=2.3
+# Environments
+gymnasium[mujoco]>=0.29; platform_system!="Windows"
+mujoco>=3.1.6; platform_system!="Windows"
+# Optional: install if you want D4RL datasets (uses old gym). Use at your own risk.
+# d4rl @ git+https://github.com/Farama-Foundation/D4RL.git
+# Logging
+tensorboard>=2.17
+# Plotting (optional, not used by scripts)
+matplotlib>=3.7
